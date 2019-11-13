@@ -1,0 +1,46 @@
+{
+  "name": "piskel-clone",
+  "version": "1.0.0",
+  "description": "final task RSSchool 2019-Q1",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "editorconfig": "^0.15.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.3",
+    "file-loader": "^4.0.0",
+    "html-webpack-loader": "0.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^5.0.0",
+    "jest": "^24.8.0",
+    "node-sass": "^4.12.0",
+    "sass": "^1.20.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "coverage": "jest --coverage",
+    "lint": "eslint ./",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rolling-scopes-school/MitskevichVS-2019Q1.git"
+  },
+  "keywords": [],
+  "author": "Victor Mitskevich <mv2.mx@yandex.ru>",
+  "license": "ISC"
+}
